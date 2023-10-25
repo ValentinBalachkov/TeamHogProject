@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 9f976c1a46f83cb4ab1417717d49e23e
+  m_SerializeEntries:
+  - m_GUID: ca543f021cbd499438ed6c5346c2f4d5
+    m_Address: CharactersData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Character
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ea77d020fd6f9334ea23e6d46494d63c
+    m_Address: EnemysData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Enemy
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4628301e6d946884cab1be3a2c361411
+    m_Address: InteractiveObjectsData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - InteractiveObject
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ac4999d0b07362e418c37545cceec582
+    m_Address: RocketData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Rocket
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 95356fad88b804b40b5f2d4d5048628a
+    m_Address: InteractiveObjectPrefab/InteractiveObject
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - InteractiveObjectPrefab
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e56814540a54cdc4090d16ddbda4c985
+    m_Address: CharacterPrefab/Character
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CharacterPrefab
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0d71bbe42025bfb4d9d18a334d34b978
+    m_Address: RocketPrefab/RocketPrefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - RocketPrefab
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2ea797d954e812046a219f83baea060a
+    m_Address: EnemyPrefab/EnemyPrefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - EnemyPrefab
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: b23683132a5ec9142a2632361e51cd42, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: da8e945ddc76f9a4b8d089e99ef6e029, type: 2}
+    - {fileID: 11400000, guid: c9db9b9883730764bbc168ef58b552ee, type: 2}
